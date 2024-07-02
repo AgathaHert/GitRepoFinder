@@ -9,8 +9,9 @@ GitRepoFinder é um aplicativo web que permite aos usuários pesquisar repositó
 
 ## Recursos
 
-- **Pesquisar repositórios do GitHub:** Os usuários podem procurar repositórios digitando o nome de usuário e o nome do repositório.
-- **Remover:** Remover repositórios da lista.
+- **Busca de Repositórios:** Permite buscar repositórios no GitHub pelo nome de usuário e o nome do repositório.
+- **Listagem de Repositórios:** Exibe uma lista dos repositórios salvos.
+- **Remoção de Repositórios:** Permite remover repositórios da lista.
 - **Notificações:** Recebe notificações de ações como adicionar ou remover repositórios e mensagens de erro se um repositório não for encontrado.
 
 ## Tecnologias Utilizadas
@@ -20,3 +21,13 @@ GitRepoFinder é um aplicativo web que permite aos usuários pesquisar repositó
 - **React Toastify:** Para exibir notificações.
 - **Styled-components:** Para estilizar o aplicativo.
 - **ESLint e Prettier:** Para qualidade e formatação de código.
+- **JavaScript:** Utilizado para implementar a lógica do aplicativo.
+
+## Aprendizados
+Durante o desenvolvimento deste projeto, aprendi a:
+
+- **Utilizar** o React para criar interfaces de usuário interativas.
+- **Gerenciar** estados e referências com hooks (useState e useRef).
+- **Fazer** requisições HTTP utilizando Axios.
+- **Definir** e aplicar estilos utilizando styled-components.
+- **Exibir** notificações de forma elegante com React-Toastify.
